@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Example</title>
+    <!-- font google icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/220ca43f01.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav id="navigationBar">
+      <header >
+        <h1 class="" id="hNav">Company Logo</h1>
+      </header>
+      <div class="nav-bars" id="humbergerBut">
+        <div class="fa fa-bars"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#content">Program</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <ul class="nav-socmed">
+        <li><input type="text" /></li>
+        <li class="socmed-icon">
+          <a href="#" class="fa fa-facebook"></a>
+        </li>
+        <li class="socmed-icon">
+          <a href="#" class="fa fa-twitter"></i></a>
+        </li>
+        <li class="socmed-icon">
+          <a href="#" class="fa fa-instagram"></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navigation bar end -->
+
+    <!-- navigation bar menu -->
+    <div class="nav-menu-screen" id="navMenuScreen">
+      <div class="fa fa-x" id="crossBut"></div>
+      <ul class="navMenu font-rbt" id="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#content">Program</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div>
+        <div class="nav-socmed" style="margin-bottom: 2em; justify-content: space-evenly;">
+          <a href="#" class="fa fa-facebook" style="padding: 0.8em;"></a>
+          <a href="#" class="fa fa-instagram " style="padding: 0.8em;"></a>
+          <a href="#" class="fa fa-twitter" style="padding: 0.8em;"></a>
+        </div>
+      </div>
+    </div>
+    <!-- navigation bar menu end-->
+
+    <!-- home -->
+    <main id="home">
+      <div class="text-desc">
+        <div class="t-txt">
+        <h1 class="txt-shadow-white">Build Your<span style="color: rgb(254, 169, 65);"> Creativity </span></h1>
+        <p>Rise Your Business</p>
+        </div>
+        <p class="font-rbt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquam eaque cupiditate repellat magni esse ullam natus consectetur qui, eum deleniti veritatis quia consequuntur amet aliquid. Sapiente quod commodi nulla quas obcaecati?</p>
+        <div class="font-rbt" id="username">
+          <label for="username"  style="font-weight: 700;"> Login To Join The Class</label><br>
+          <input type="text" placeholder="Email Adress" id="username">
+          <input type="submit" value="Submit" id="username">
+        </div>  
+      </div>
+      <div class="img-desc">
+        <img src="assets/g16.png" alt="" width="600px">
+      </div>
+    </main>
+    <!-- home end -->
+
+    <!-- about -->
+    <main id="about" style="height: 100vh;">
+      <div class="t-txt">
+        <h1 class="txt-shadow-white" style="color: black;">About<br><span style="color: rgb(254, 169, 65);"> Us </span></h1>
+        <p>Make Your Business Grow</p>
+        <p class="" style="font-style: normal; font-size: 0.5em;">To make your business grow we guide you with our best teacher. Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit facilis accusamus!</p>
+        <input type="submit" value="Join Now" id="join">
+      </div>
+      <div class="slider">
+        <div class="slides font-rbt">
+          <div class="card">
+            <img src="assets/img/2.png"  class="slide" alt="img_1" />
+   
+          </div>
+          <div class="card ">
+            <img src="assets/img/2.png"  class="slide" alt="img_1" />
+ 
+          </div>
+          <div class="card ">
+            <img src="assets/img/3.png"  class="slide" alt="img_1" />
+   
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- about end -->
+
+    <!--  content -->
+    <main id="content" class="font-rbt" style="flex-direction: column;">
+      <div class="text-desc">
+        <div class="t-txt">
+        <p style="border-bottom: 5px solid  rgb(254, 169, 65);">Choose Your Plans. </p>
+        </div>
+      </div>
+      <div class="cards-pricing-plan ">
+        <div class="card-plan ">
+          <div class="card-desc">
+            <header>
+              <h1>Basic Plan</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident explicabo quod?</p>
+            <p><b style="font-size: 2em; color: black;" class="font-rbt">25$</b>/month</p>
+          </div>
+          <div class="card-util">
+            <h3>What's included:</h3>
+            <ul>
+              <li><i class="fas fa-check fa-green"></i>up to 20gb video</li>
+              <li><i class="fas fa-check fa-green"></i>lorem</li>
+              <li><i class="fas fa-check fa-green"></i>ipsum</li>
+              <li><i class="fas fa-minus"></i>doler</li>
+              <li><i class="fas fa-minus"></i>sit amet</li>
+              <li><i class="fas fa-minus"></i>live meeting</li>
+            </ul>           
+          </div>
+          <button class="btn-card">Join Now</button>
+        </div>
+        <div class="card-plan ">
+          <div class="card-desc">
+            <header>
+              <h1>Medium Plan</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident explicabo quod?</p>
+            <p><b style="font-size: 2em; color: black;" class="font-rbt">30$</b>/month</p>
+          </div>
+          <div class="card-util">
+            <h3>What's included:</h3>
+            <ul>
+              <li><i class="fas fa-check fa-green"></i>up to 20gb video</li>
+              <li><i class="fas fa-check fa-green"></i>lorem</li>
+              <li><i class="fas fa-check fa-green"></i>ipsum</li>
+              <li><i class="fas fa-check fa-green"></i>doler</li>
+              <li><i class="fas fa-minus"></i>sit amet</li>
+              <li><i class="fas fa-minus"></i>live meeting</li>
+            </ul>           
+          </div>
+          <button class="btn-card">Join Now</button>
+        </div>
+        <div class="card-plan ">
+          <div class="card-desc">
+            <header>
+              <h1>Premium Plan</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident explicabo quod?</p>
+            <p><b style="font-size: 2em; color: black;" class="font-rbt">45$</b>/month</p>
+          </div>
+          <div class="card-util">
+            <h3>What's included:</h3>
+            <ul>
+              <li><i class="fas fa-check fa-green"></i>up to 20gb video</li>
+              <li><i class="fas fa-check fa-green"></i>lorem</li>
+              <li><i class="fas fa-check fa-green"></i>ipsum</li>
+              <li><i class="fas fa-check fa-green"></i>doler</li>
+              <li><i class="fas fa-check fa-green"></i>sit amet</li>
+              <li><i class="fas fa-check fa-green"></i>live meeting</li>
+            </ul>           
+          </div>
+          <button class="btn-card">Join Now</button>
+        </div>
+      </div>
+
+
+
+    </main>
+    <!-- content end -->
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="contact-container">
+          <div class="text-desc">
+            <div class="t-txt">
+            <p style="border-bottom: 5px solid  rgb(254, 169, 65);">Contact Us. </p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    <!-- Footer -->
+<!-- Footer -->
+
+<footer >
+  <div class="footer-container font-rbt">
+    <div class="footer-logo">
+      <img src="assets/company-logo.png" alt="Company Logo">
+    </div>
+    <div class="footer-social">
+      <ul>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-linkedin"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-info">
+    <p>&copy; 2024 Company Name. All rights reserved.</p>
+    <p>Designed with <i class="fas fa-heart"></i> by Your Name</p>
+  </div>
+</footer>
+
+    
+
+    <!-- Footer end -->
+    <script src="script.js"></script>
+  </body>
+</html>
